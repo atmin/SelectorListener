@@ -1,6 +1,6 @@
 {
   "name": "selector-listeners",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Listen for CSS selector rule matches at document or element level",
   "main": "selector-listeners.js",
   "repository": {

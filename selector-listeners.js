@@ -34,7 +34,7 @@
 			
 		if (key) events[key].count++;
 		else {
-			key = selectors[selector] = 'SelectorListener-' + new Date().getTime();
+			key = selectors[selector] = 'SelectorListener-' + Math.random().toString().substr(2);
 			var node = document.createTextNode('@' + (prefix.keyframes ? prefix.css : '') + 'keyframes ' + key + ' {'
 				+'from { outline-color: #fff; } to { outline-color: #000; }'
 			+ '}');
